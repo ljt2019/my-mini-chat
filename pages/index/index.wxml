@@ -1,0 +1,7 @@
+<view>
+  <text catchtap="click" class="{{color}}">Hello World</text>
+</view>
+
+1、冒泡事件就是需要往上面一层容器传递这个事件
+2、bind事件绑定不会阻止事件向上冒泡，catch事件绑定可以阻止事件向上冒泡
+3、

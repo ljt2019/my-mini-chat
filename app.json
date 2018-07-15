@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "Tiger-Demo",
+    "navigationBarBackgroundColor": "#BBDEF8",
+    "navigationBarTextStyle": "white"
+
+  }
+}
