@@ -7,5 +7,21 @@
     "navigationBarBackgroundColor": "#BBDEF8",
     "navigationBarTextStyle": "white"
 
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/start-zhCN@2x.png",
+      "selectedIconPath": "image/start-enUS@2x.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "tiger",
+      "iconPath": "image/miaow.png",
+      "selectedIconPath": "image/record.png"
+    }
+    ]
   }
+
 }
