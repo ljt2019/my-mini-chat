@@ -4,22 +4,19 @@ const app = getApp()
 Page({
   data: {
     imgUrls: [
-      '/image/beautiful/beautiful001.jpg',
-      '/image/beautiful/beautiful002.jpg',
-      '/image/beautiful/beautiful003.jpg',
-      '/image/beautiful/beautiful008.jpg',
-      '/image/beautiful/beautiful009.jpg',
-      '/image/beautiful/beautiful010.jpg',
-      '/image/beautiful/beautiful011.jpg',
+      'http://p3.so.qhmsg.com/t01c28ce7bc1cc152d8.jpg',
+      'http://p2.so.qhimgs1.com/t016124241a929b8a82.jpg',
+      'http://p3.so.qhimgs1.com/t0121f197d096b708e3.jpg',
+      'http://p2.so.qhmsg.com/t01bd34033c57754547.jpg'
     ],
     indicatorDots: false,
     autoplay: false,
     interval: 5000,
     duration: 1000,
-    circular:false,
+    circular: false,
   },
-  onLoad:function(){
-    
+  onLoad: function () {
+
   },
   changeIndicatorDots: function (e) {
     this.setData({
@@ -52,7 +49,7 @@ Page({
     if (res.from === 'button') {
       // 来自页面内转发按钮
       console.log(res.target)
-      
+
     }
     return {
       title: '分享-青春年华相册',

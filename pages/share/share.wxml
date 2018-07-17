@@ -1,0 +1,23 @@
+
+<view>
+   <text class='{{color}}'>这是分享页面</text>
+</view>
+
+<view>
+  <text class='{{color}}'>{{text}}</text>
+</view>
+
+<view>{{array[0].value}}</view>
+
+<button bindtap="click"> {{color}} 点击变化 </button>
+
+<view>
+   <text class='{{color}}'>这是分享页面end==</text>
+</view>
+<view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
+  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}} * {{j}} = {{i * j}}
+    </view>
+  </view>
+</view>
